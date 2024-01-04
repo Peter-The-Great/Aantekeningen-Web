@@ -1,0 +1,19 @@
+In softwarearchitectuur verwijst **layering** naar het scheiden van de verschillende componenten van een applicatie in lagen. Elke laag is verantwoordelijk voor een specifieke functionaliteit en communiceert alleen met de lagen direct boven of onder zich. [Dit helpt bij het creëren van een modulaire en schaalbare applicatie](https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture)[1](https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture).
+
+Er zijn verschillende manieren om lagen te definiëren, maar de meest voorkomende zijn de **vierlagenarchitectuur** en de **drielagenarchitectuur**. De vierlagenarchitectuur bestaat uit de volgende lagen: **Presentation Layer**, **Application Layer**, **Business Logic Layer** en **Data Access Layer**. De drielagenarchitectuur bestaat uit de volgende lagen: **Presentation Layer**, **Application Layer** en **Data Access Layer** [1](https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture).
+
+De **Presentation Layer** is verantwoordelijk voor het weergeven van de gebruikersinterface van de applicatie. Het kan bijvoorbeeld een webpagina of een grafische gebruikersinterface zijn. De **Application Layer** bevat de logica van de applicatie en is verantwoordelijk voor het coördineren van de communicatie tussen de verschillende lagen. De **Business Logic Layer** bevat de bedrijfslogica van de applicatie en is verantwoordelijk voor het implementeren van de bedrijfsregels. De **Data Access Layer** is verantwoordelijk voor het ophalen en opslaan van gegevens in de database [1](https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture).
+
+Het gebruik van lagen in softwarearchitectuur heeft verschillende voordelen. Het maakt het bijvoorbeeld gemakkelijker om de applicatie te onderhouden en te testen, omdat de verschillende componenten van de applicatie gescheiden zijn. Het maakt het ook gemakkelijker om de applicatie te schalen, omdat de verschillende componenten onafhankelijk van elkaar kunnen worden geïmplementeerd en uitgevoerd [1](https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture)
+
+
+## Hoe werkt het met react
+Natuurlijk! In de **drielagenarchitectuur** van softwareontwikkeling worden de verschillende componenten van een applicatie in drie lagen gescheiden: **Presentation Layer**, **Application Layer** en **Data Access Layer** [1](https://react.dev/).
+
+De **Presentation Layer** is verantwoordelijk voor het weergeven van de gebruikersinterface van de applicatie. In React kan dit worden bereikt door het gebruik van componenten zoals `Button`, `Input`, `Form`, `Table`, `List`, enzovoort.
+
+De **Application Layer** bevat de logica van de applicatie en is verantwoordelijk voor het coördineren van de communicatie tussen de verschillende lagen. In React kan dit worden bereikt door het gebruik van componenten zoals `App`, `Router`, `Context`, `Provider`, `Consumer`, enzovoort.
+
+De **Data Access Layer** is verantwoordelijk voor het ophalen en opslaan van gegevens in de database. In React kan dit worden bereikt door het gebruik van componenten zoals `Axios`, `Fetch`, `GraphQL`, `REST API`, enzovoort.
+
+Het gebruik van de drielagenarchitectuur in React kan helpen bij het creëren van een schaalbare, testbare en onderhoudbare applicatie. Door de verschillende componenten van de applicatie in lagen te scheiden, kan elke laag onafhankelijk worden ontwikkeld, getest en geïmplementeerd. Dit maakt het gemakkelijker om de applicatie te onderhouden en te schalen.
