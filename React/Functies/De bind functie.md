@@ -1,8 +1,10 @@
-The bind() is an inbuilt method in React that is used to pass the data as an argument to the function of a class based component.
+The bind() is an inbuilt method in React that is used to pass the data as an argument to the function of a **class based component**.
 
 **Syntax:**
 
+```JS
 this.function.bind(this,[arg1...]);
+```
 
 **Parameter:** It accepts two parameters, the first parameter is the _**this**_ keyword used for binding and the second parameter is the sequence of arguments that are passed as a parameter and are optional.
 

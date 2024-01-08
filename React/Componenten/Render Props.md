@@ -3,9 +3,6 @@ De **render-prop pattern** is een ontwerppatroon in React dat wordt gebruikt o
 De **render-prop pattern** is nuttig voor het delen van code tussen componenten die vergelijkbare functionaliteit hebben, maar verschillende weergaven. Het patroon kan ook worden gebruikt om cross-cutting concerns te implementeren, zoals authenticatie of routering.
 
 Hier is een voorbeeld van hoe u de **render-prop pattern** kunt gebruiken in React:
-
-JavaScript
-
 ```javascript
 import React from 'react';
 

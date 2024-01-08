@@ -28,8 +28,6 @@ Hier is hoe je de Dependency Injection (DI) techniek kunt toepassen in React om 
     
 3. In plaats van een directe afhankelijkheid van “Opslag”, zou “Boek” nu afhankelijk zijn van `IOpslag`. Injecteer deze afhankelijkheid via de constructor of een setter methode van “Boek”.
     
-    JavaScript
-    
     ```javascript
     export default class Boek {
         private opslag: IOpslag;
@@ -40,9 +38,6 @@ Hier is hoe je de Dependency Injection (DI) techniek kunt toepassen in React om 
         
         // Andere methoden en logica blijven hetzelfde
     }
-    ```
-    
-    AI-generated code. Review and use carefully. .
-    
+    ```  
 
 Nu kan elke klasse die `IOpslag` implementeert, worden geïnjecteerd in “Boek”, waardoor het gemakkelijk is om verschillende opslagimplementaties te gebruiken of te testen zonder dat je code hoeft te wijzigen in de “Boek” klasse.

@@ -105,6 +105,8 @@ Hier is een voorbeeld van hoe je de `flex-wrap` eigenschap kunt gebruiken:
 
 In dit voorbeeld hebben we een flex-container met de `flex-wrap` eigenschap ingesteld op `wrap`. Dit betekent dat de flex-items worden gewrapt naar de volgende regel als ze niet in de beschikbare ruimte passen.
 
+![[css-flexbox-poster.png]]
+
 Leer Meer:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox

@@ -36,9 +36,7 @@ Here is how you would give an element a margin in CSS:
 
 ```css
 .element {
-
   margin: 10px;
-
 }
 ```
 
@@ -56,9 +54,7 @@ Here is how you would give an element padding in CSS:
 
 ```css
 .element {
-
   padding: 10px;
-
 }
 ```
 

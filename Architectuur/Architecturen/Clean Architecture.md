@@ -9,8 +9,6 @@ In dit voorbeeld is de `Model` component verantwoordelijk voor het beheren van
 
 Hier is een voorbeeld van hoe de code voor onze applicatie eruit zou kunnen zien in React:
 
-JavaScript
-
 ```javascript
 import React, { Component } from 'react';
 
